@@ -1,0 +1,9 @@
+1) What is the problem?
+Note that in several places, there is a tight coupling between the counting (model) logic, and the views (GUI display). This is not good, it violates the Single Responsibility Principle.
+
+2) Describe some specific impacts of this design issue, examples of why it would lead to a poor result.
+So you need a better design, that will promote a decoupling and separation (and encapsulation) of each of these two parts of the design. Hint: Observer Pattern.
+
+3)What issues arise from the new derived ObservableCounter which IsA Counter, and also IsA Observable?
+
+
